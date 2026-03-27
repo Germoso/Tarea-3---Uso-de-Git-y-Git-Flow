@@ -1,0 +1,11 @@
+informe_teorico.md
+Tarea 3.pdf
+rebuild_git.sh
+
+# Archivos del sistema
+.DS_Store
+*.log
+node_modules/
+
+# Backups
+*.bak
