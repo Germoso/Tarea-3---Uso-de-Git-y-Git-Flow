@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Master - CRUD Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Task Master</h1>
+            <p>Gestiona tus tareas de forma eficiente</p>
+        </header>
+
+        <main>
+            <!-- Add Task Form -->
+            <section class="task-form">
+                <input type="text" id="taskInput" placeholder="¿Qué hay que hacer hoy?">
+                <button id="addTaskBtn">Agregar</button>
+            </section>
+
+            <!-- Task List -->
+            <section class="task-list-container">
+                <ul id="taskList">
+                    <!-- Tasks will be injected here -->
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 - Programación III - ITLA</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
